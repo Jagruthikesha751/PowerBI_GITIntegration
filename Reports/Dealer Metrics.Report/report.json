@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.61\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"allowInlineExploration\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"creationSource\":\"QuickCreate\"}",
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.61\",\"type\":2}},\"activeSectionIndex\":0,\"modelExtensions\":[{\"name\":\"extension\",\"entities\":[{\"name\":\"Data Dictionary\",\"extends\":\"Data Dictionary\",\"measures\":[{\"name\":\"Dev3 test Measure\",\"dataType\":3,\"expression\":\"\\\"Testing from Dev3\\\"\",\"errorMessage\":null,\"hidden\":false,\"formulaOverride\":null,\"formatInformation\":{\"formatString\":\"G\",\"format\":\"General\",\"thousandSeparator\":false,\"currencyFormat\":null,\"dateTimeCustomFormat\":null}}]}]}],\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"allowInlineExploration\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"creationSource\":\"QuickCreate\"}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -86,13 +86,13 @@
           "z": 2000.00
         },
         {
-          "config": "{\"name\":\"f2e1036c199495d06a5a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1225.4814814814815,\"y\":357.9259259259259,\"z\":4001,\"width\":628.1481481481482,\"height\":267.85185185185185,\"tabOrder\":4001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(ORDERS.ORDER_IDENTIFIER)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"ORDERS\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"ORDER_IDENTIFIER\"}},\"Function\":5},\"Name\":\"Min(ORDERS.ORDER_IDENTIFIER)\",\"NativeReferenceName\":\"Count of ORDER_IDENTIFIER\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"ORDER_IDENTIFIER\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"f2e1036c199495d06a5a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1225.4814814814815,\"y\":357.9259259259259,\"z\":5000,\"width\":628.1481481481482,\"height\":267.85185185185185,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(ORDERS.ORDER_IDENTIFIER)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"ORDERS\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"ORDER_IDENTIFIER\"}},\"Function\":5},\"Name\":\"Min(ORDERS.ORDER_IDENTIFIER)\",\"NativeReferenceName\":\"Count of ORDER_IDENTIFIER\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"ORDER_IDENTIFIER\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 267.85,
           "width": 628.15,
           "x": 1225.48,
           "y": 357.93,
-          "z": 4001.00
+          "z": 5000.00
         }
       ],
       "width": 1920.00
@@ -200,13 +200,13 @@
           "z": 2000.00
         },
         {
-          "config": "{\"name\":\"e0c75640447c517241be\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1051,\"y\":566,\"width\":802,\"height\":514,\"z\":2001,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(NEW_ISSUE.Pricing Date)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"n\",\"Entity\":\"NEW_ISSUE\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"n\"}},\"Property\":\"Pricing Date\"}},\"Function\":3},\"Name\":\"Min(NEW_ISSUE.Pricing Date)\",\"NativeReferenceName\":\"Pricing Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"n\"}},\"Property\":\"Pricing Date\"}},\"Function\":3}}}]},\"columnProperties\":{\"Min(NEW_ISSUE.Pricing Date)\":{\"displayName\":\"Pricing Date\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"e0c75640447c517241be\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1051,\"y\":566,\"width\":802,\"height\":514,\"z\":3000,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(NEW_ISSUE.Pricing Date)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"n\",\"Entity\":\"NEW_ISSUE\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"n\"}},\"Property\":\"Pricing Date\"}},\"Function\":3},\"Name\":\"Min(NEW_ISSUE.Pricing Date)\",\"NativeReferenceName\":\"Pricing Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"n\"}},\"Property\":\"Pricing Date\"}},\"Function\":3}}}]},\"columnProperties\":{\"Min(NEW_ISSUE.Pricing Date)\":{\"displayName\":\"Pricing Date\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 514.00,
           "width": 802.00,
           "x": 1051.00,
           "y": 566.00,
-          "z": 2001.00
+          "z": 3000.00
         }
       ],
       "width": 1920.00
@@ -250,6 +250,15 @@
       "name": "b71738573b5c5470b9b4",
       "ordinal": 2,
       "visualContainers": [
+        {
+          "config": "{\"name\":\"8c537fa0fd8074672d19\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1417.295798598917,\"y\":495.1450065618011,\"z\":4001,\"width\":458.80408864900835,\"height\":149.90628639027005,\"tabOrder\":4001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data Dictionary.Dev3 test Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Dictionary\",\"Schema\":\"extension\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Dev3 test Measure\"},\"Name\":\"Data Dictionary.Dev3 test Measure\",\"NativeReferenceName\":\"Dev3 test Measure\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Dev3 test Measure\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 149.91,
+          "width": 458.80,
+          "x": 1417.30,
+          "y": 495.15,
+          "z": 4001.00
+        },
         {
           "config": "{\"name\":\"9931ebe7a744e8bf9019\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":177.2536850271528,\"z\":3000,\"width\":1918.5104732350658,\"height\":22.34290147401086,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#499195'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#499195'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
           "filters": "[]",
