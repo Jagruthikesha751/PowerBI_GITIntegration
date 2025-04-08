@@ -198,6 +198,15 @@
           "x": 0.00,
           "y": 566.10,
           "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"e0c75640447c517241be\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1051,\"y\":566,\"width\":802,\"height\":514,\"z\":2001,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(NEW_ISSUE.Pricing Date)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"n\",\"Entity\":\"NEW_ISSUE\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"n\"}},\"Property\":\"Pricing Date\"}},\"Function\":3},\"Name\":\"Min(NEW_ISSUE.Pricing Date)\",\"NativeReferenceName\":\"Pricing Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"n\"}},\"Property\":\"Pricing Date\"}},\"Function\":3}}}]},\"columnProperties\":{\"Min(NEW_ISSUE.Pricing Date)\":{\"displayName\":\"Pricing Date\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 514.00,
+          "width": 802.00,
+          "x": 1051.00,
+          "y": 566.00,
+          "z": 2001.00
         }
       ],
       "width": 1920.00
